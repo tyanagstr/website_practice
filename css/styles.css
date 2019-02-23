@@ -7,17 +7,38 @@ body {
 
 }
 
-header {
+.container {
+    width: 860px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.template-header {
     color: white;
     background: url(../img/bg.png);
     background-size: cover;
     background-position: 50% 50%;
 }
 
+.btn {
+    display: inline-block;
+    width: 250px;
+    background: white;
+    color: darkgray;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1.0
+}
+
+/* header */
+
 header .container {
-    width: 860px;
-    margin: 0 auto;
-    padding: 60px 0;
     /* background-color: #ffaaaa; */
     position: relative;
 }
@@ -39,19 +60,4 @@ header img {
     bottom: 0;
     right: 0;
     border: 1px solid royalblue; /* 可視化のため */
-}
-.btn {
-    display: inline-block;
-    width: 250px;
-    background: white;
-    color: darkgray;
-    text-align: center;
-    text-decoration: none;
-    padding: 8px 0;
-    border-radius: 5px;
-    opacity: 0.9;
-}
-
-.btn:hover {
-    opacity: 1.0
 }
