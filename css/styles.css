@@ -108,5 +108,39 @@ header img {
 
 /* voices */
 .voices {
-    background-color: lightcyan;
+    background-color: rgb(216, 216, 216);
+}
+
+.voices .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voices .section-title {
+    margin-bottom: 90px;
+}
+
+.voice {
+    width: 30%;
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+    padding: 60px 10px 30px;
+}
+
+.voice img {
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0 0 10px darkgray;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 5px auto;
+    top: -60px;
+}
+
+.voice h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
 }
