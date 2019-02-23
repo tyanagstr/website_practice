@@ -21,6 +21,20 @@ body {
     text-shadow: 0 0 10px slategray;
 }
 
+.section-title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.section-title::after {
+    content: attr(data-subtitle);
+    display: block;
+    font-size: 14px;
+    color: gray;
+    padding-top: 10px;
+}
+
 .btn {
     display: inline-block;
     width: 250px;
@@ -65,16 +79,16 @@ header img {
 }
 
 /* features */
-.features h1 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 24px;
+.feature .desc {
+    width: 400px;
 }
 
-.features h1::after {
-    content: attr(data-subtitle);
-    display: block;
-    font-size: 14px;
-    color: gray;
-    padding-top: 10px;
+.feature:nth-of-type(odd) .desc {
+    float: right;
+    padding-left: 40px;
+}
+
+.feature:nth-of-type(even) .desc {
+    float: left;
+    padding-right: 40px;
 }
