@@ -153,3 +153,11 @@ header img {
 .call-to-action .section-title {
     margin-bottom: 15px;
 }
+
+/* footer */
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    color: lightgray;
+}
