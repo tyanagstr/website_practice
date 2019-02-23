@@ -105,3 +105,8 @@ header img {
     float: left;
     padding-right: 40px;
 }
+
+/* voices */
+.voices {
+    background-color: lightcyan;
+}
